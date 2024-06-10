@@ -1,0 +1,346 @@
+[
+    {
+      "id": "Nishant",
+      "gender": "male",
+      "parents": [],
+      "siblings": [],
+      "spouses": [
+        {
+          "id": "Archna",
+          "type": "married"
+        }
+      ],
+      "children": [
+        {
+          "id": "Child1",
+          "type": "blood"
+        },
+        {
+          "id": "Child2",
+          "type": "blood"
+        },
+        {
+          "id": "Child3",
+          "type": "blood"
+        }
+      ]
+    },
+    {
+      "id": "Archna",
+      "gender": "female",
+      "parents": [],
+      "siblings": [],
+      "spouses": [
+        {
+          "id": "Nishant",
+          "type": "married"
+        }
+      ],
+      "children": [
+        {
+          "id": "Child1",
+          "type": "blood"
+        },
+        {
+          "id": "Child2",
+          "type": "blood"
+        },
+        {
+          "id": "Child3",
+          "type": "blood"
+        }
+      ]
+    },
+    {
+      "id": "Child1",
+      "gender": "male",
+      "parents": [
+        {
+          "id": "Nishant",
+          "type": "blood"
+        },
+        {
+          "id": "Archna",
+          "type": "blood"
+        }
+      ],
+      "siblings": [],
+      "spouses": [
+        {
+          "id": "daya",
+          "type": "married"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "daya",
+      "gender": "female",
+      "parents": [],
+      "siblings": [],
+      "spouses": [
+        {
+          "id": "Child1",
+          "type": "married"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "Child2",
+      "gender": "female",
+      "parents": [
+        {
+          "id": "Nishant",
+          "type": "blood"
+        },
+        {
+          "id": "Archna",
+          "type": "blood"
+        }
+      ],
+      "siblings": [
+        {
+          "id": "Child3",
+          "type": "blood"
+        },
+        {
+          "id": "Child1",
+          "type": "blood"
+        }
+      ],
+      "spouses": [
+        {
+          "id": "geeta",
+          "type": "married"
+        }
+      ],
+      "children": [
+        {
+          "id": "Gr child1",
+          "type": "blood"
+        },
+        {
+          "id": "Gr child2",
+          "type": "blood"
+        },
+        {
+          "id": "Gr child3",
+          "type": "blood"
+        },
+        {
+          "id": "Gr child4",
+          "type": "blood"
+        }
+      ]
+    },
+    {
+      "id": "geeta",
+      "gender": "male",
+      "parents": [],
+      "siblings": [],
+      "spouses": [
+        {
+          "id": "Child2",
+          "type": "married"
+        }
+      ],
+      "children": [
+        {
+          "id": "Gr child1",
+          "type": "blood"
+        },
+        {
+          "id": "Gr child2",
+          "type": "blood"
+        },
+        {
+          "id": "Gr child3",
+          "type": "blood"
+        },
+        {
+          "id": "Gr child4",
+          "type": "blood"
+        }
+      ]
+    },
+    {
+      "id": "Gr child1",
+      "gender": "male",
+      "parents": [
+        {
+          "id": "Child2",
+          "type": "blood"
+        },
+        {
+          "id": "geeta",
+          "type": "blood"
+        }
+      ],
+      "siblings": [
+        {
+          "id": "Gr child2",
+          "type": "blood"
+        },
+        {
+          "id": "Gr child3",
+          "type": "blood"
+        },
+        {
+          "id": "Gr child4",
+          "type": "blood"
+        }
+      ],
+      "spouses": [],
+      "children": [
+        {
+          "id": "Gr Gr child1",
+          "type": "blood"
+        }
+      ]
+    },
+    {
+      "id": "Gr Gr child1",
+      "gender": "female",
+      "parents": [
+        {
+          "id": "Gr child1",
+          "type": "blood"
+        }
+      ],
+      "siblings": [],
+      "spouses": [
+        {
+          "id": "Gr Gr child p",
+          "type": "married"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "Gr Gr child p",
+      "gender": "male",
+      "parents": [],
+      "siblings": [],
+      "spouses": [
+        {
+          "id": "Gr Gr child1",
+          "type": "married"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "Gr child2",
+      "gender": "male",
+      "parents": [
+        {
+          "id": "Child2",
+          "type": "blood"
+        },
+        {
+          "id": "geeta",
+          "type": "blood"
+        }
+      ],
+      "siblings": [
+        {
+          "id": "Gr child1",
+          "type": "blood"
+        },
+        {
+          "id": "Gr child3",
+          "type": "blood"
+        },
+        {
+          "id": "Gr child4",
+          "type": "blood"
+        }
+      ],
+      "spouses": [],
+      "children": []
+    },
+    {
+      "id": "Gr child3",
+      "gender": "male",
+      "parents": [
+        {
+          "id": "Child2",
+          "type": "blood"
+        },
+        {
+          "id": "geeta",
+          "type": "blood"
+        }
+      ],
+      "siblings": [
+        {
+          "id": "Gr child1",
+          "type": "blood"
+        },
+        {
+          "id": "Gr child2",
+          "type": "blood"
+        },
+        {
+          "id": "Gr child4",
+          "type": "blood"
+        }
+      ],
+      "spouses": [],
+      "children": []
+    },
+    {
+      "id": "Gr child4",
+      "gender": "male",
+      "parents": [
+        {
+          "id": "Child2",
+          "type": "blood"
+        },
+        {
+          "id": "geeta",
+          "type": "blood"
+        }
+      ],
+      "siblings": [
+        {
+          "id": "Gr child1",
+          "type": "blood"
+        },
+        {
+          "id": "Gr child2",
+          "type": "blood"
+        },
+        {
+          "id": "Gr child3",
+          "type": "blood"
+        }
+      ],
+      "spouses": [],
+      "children": []
+    },
+    {
+      "id": "Child3",
+      "gender": "male",
+      "parents": [
+        {
+          "id": "Nishant",
+          "type": "blood"
+        },
+        {
+          "id": "Archna",
+          "type": "blood"
+        }
+      ],
+      "siblings": [
+        {
+          "id": "Child2",
+          "type": "blood"
+        }
+      ],
+      "spouses": [],
+      "children": []
+    }
+  ]
+  

@@ -1,0 +1,73 @@
+[
+    {
+      "id": "Nishant",
+      "gender": "male",
+      "parents": [],
+      "siblings": [],
+      "spouses": [
+        {
+          "id": "EX",
+          "type": "married"
+        },
+        {
+          "id": "Archna",
+          "type": "divorced"
+        }
+      ],
+      "children": [
+        {
+          "id": "child1",
+          "type": "blood"
+        }
+      ]
+    },
+    {
+      "id": "EX",
+      "gender": "female",
+      "parents": [],
+      "siblings": [],
+      "spouses": [
+        {
+          "id": "Nishant",
+          "type": "married"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "Archna",
+      "gender": "female",
+      "parents": [],
+      "siblings": [],
+      "spouses": [
+        {
+          "id": "Nishant",
+          "type": "divorced"
+        }
+      ],
+      "children": [
+        {
+          "id": "child1",
+          "type": "blood"
+        }
+      ]
+    },
+    {
+      "id": "child1",
+      "gender": "male",
+      "parents": [
+        {
+          "id": "Nishant",
+          "type": "blood"
+        },
+        {
+          "id": "Archna",
+          "type": "blood"
+        }
+      ],
+      "siblings": [],
+      "spouses": [],
+      "children": []
+    }
+  ]
+  
